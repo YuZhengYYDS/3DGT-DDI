@@ -5,7 +5,7 @@ from torch_geometric.loader import DataLoader
 import time
 import datetime
 from tensorboardX import SummaryWriter
-
+#print
 def train_eval(model, optimizer, train_loader, val_loader,test_loader, epochs=2 , log_path = 'default'):
     #x = 0.005
     x = 0.0005
